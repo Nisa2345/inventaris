@@ -20,7 +20,7 @@
             <div class="card">
                 <div class="card-header">
                     Data Barang Masuk
-                    <a href="{{route('barangmasuk.create')}}" class="btn btn-outline-primary float-right">Tambah Barang</a>
+                    <a href="{{route('barang_masuk.create')}}" class="btn btn-outline-primary float-right">Tambah Barang</a>
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">
@@ -42,11 +42,11 @@
 
 
                                 <td>
-                                    <form action="{{route('barangmasuk.destroy' , $data->id)}}" method="POST">
+                                    <form action="{{route('barang_masuk.destroy' , $data->id)}}" method="POST">
                                         @method('delete')
                                         @csrf
-                                        <a href="{{route('barangmasuk.edit', $data->id)}}" class="btn btn-outline-info">Edit</a>
-                                        <a href="{{route('barangmasuk.show' ,$data->id)}}" class="btn btn-outline-warning">Show</a>
+                                        <a href="{{route('barang_masuk.edit', $data->id)}}" class="btn btn-outline-info">Edit</a>
+                                        <a href="{{route('barang_masuk.show' ,$data->id)}}" class="btn btn-outline-warning">Show</a>
                                         <button type="submit" class="btn btn-outline-danger" onclick="return confirm('apakah anda yakin menghapus ini?');">Delete</button>
                                     </form>
                                 </td>

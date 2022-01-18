@@ -19,7 +19,7 @@
             <div class="card">
                 <div class="card-header">Data pinjam barang</div>
                 <div class="card-body">
-                    <form action="{{route('pinjambarang.store')}}" method="post" enctype="multipart/form-data">
+                    <form action="{{route('barang_masuk.store')}}" method="post" enctype="multipart/form-data">
                         @csrf
                         <div class="form-group">
                             <label for="">namabarang</label>

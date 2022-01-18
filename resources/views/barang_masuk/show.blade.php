@@ -31,7 +31,7 @@
                     </div>
 
                     <div class="form-group">
-                        <a href="{{url('admin/barangmasuk')}}" class="btn btn-block btn-outline-primary">Kembali</a>
+                        <a href="{{url('admin/barang_masuk')}}" class="btn btn-block btn-outline-primary">Kembali</a>
                     </div>
                 </div>
             </div>

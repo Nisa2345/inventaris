@@ -19,7 +19,7 @@
             <div class="card">
                 <div class="card-header">Data Barang Keluar</div>
                 <div class="card-body">
-                    <form action="{{route('barangkeluar.store')}}" method="post" enctype="multipart/form-data">
+                    <form action="{{route('barang_keluar.store')}}" method="post" enctype="multipart/form-data">
                         @csrf
                         <div class="form-group">
                             <label for="">nama barang</label>
